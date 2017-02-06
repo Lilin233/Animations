@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="82h-MV-4DR">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Root View Controller-->
+        <scene sceneID="7ng-ET-IFJ">
+            <objects>
+                <tableViewController id="Buk-Ee-z1o" customClass="ViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="aTU-zx-Pze">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="5bv-81-ZV2">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="CtS-40-ouY" style="IBUITableViewCellStyleDefault" id="i9a-Vr-Uff">
+                                        <rect key="frame" x="0.0" y="64" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="i9a-Vr-Uff" id="1jv-F8-339">
+                                            <frame key="frameInset" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="twitter模态跳转动画normal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CtS-40-ouY">
+                                                    <frame key="frameInset" minX="15" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="eN9-QP-XlJ" kind="presentation" identifier="ModalNormal" id="B16-fq-Uq3"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="b81-4g-arI" style="IBUITableViewCellStyleDefault" id="J9H-g9-c0t">
+                                        <rect key="frame" x="0.0" y="108" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="J9H-g9-c0t" id="tBh-wA-QNX">
+                                            <frame key="frameInset" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="twitter模态跳转动画Assets" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="b81-4g-arI">
+                                                    <frame key="frameInset" minX="15" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="0iQ-Op-fMJ" style="IBUITableViewCellStyleDefault" id="NB4-vT-k14">
+                                        <rect key="frame" x="0.0" y="152" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NB4-vT-k14" id="9fk-Dx-e4q">
+                                            <frame key="frameInset" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="twitter启动动画" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0iQ-Op-fMJ">
+                                                    <frame key="frameInset" minX="15" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="b3P-TB-zBj" kind="show" id="s1I-FD-3UD"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="Buk-Ee-z1o" id="i46-kp-R5M"/>
+                            <outlet property="delegate" destination="Buk-Ee-z1o" id="It3-EU-SAw"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="yz3-xs-KtW"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mhh-5c-6hF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-278" y="82"/>
+        </scene>
+        <!--Uber Launch Animation View Controller-->
+        <scene sceneID="0Bb-P1-qpY">
+            <objects>
+                <viewController id="b3P-TB-zBj" customClass="UberLaunchAnimationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BGK-LY-Ukx"/>
+                        <viewControllerLayoutGuide type="bottom" id="7FU-c3-X7J"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5hp-Ql-VHN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="en2-f5-0xc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="502" y="74"/>
+        </scene>
+        <!--Twitter Modal Normal Animation View Controller-->
+        <scene sceneID="EgH-Fg-xpC">
+            <objects>
+                <viewController id="eN9-QP-XlJ" customClass="TwitterModalNormalAnimationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rjO-lK-QYh"/>
+                        <viewControllerLayoutGuide type="bottom" id="ybT-cA-RVb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="da0-Fl-78v">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vs0-2V-x9g">
+                                <state key="normal" title="Cancel"/>
+                                <connections>
+                                    <action selector="cancelButtonClicked:" destination="eN9-QP-XlJ" eventType="touchUpInside" id="4qT-hD-IfN"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dingri.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="c8b-xY-gXV">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="3N2-XZ-GkU"/>
+                                    <constraint firstAttribute="height" constant="40" id="uqN-ct-vqZ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="有什么新鲜事？" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nWG-3N-WPe">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="dZ6-24-SFc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="c8b-xY-gXV" firstAttribute="leading" secondItem="da0-Fl-78v" secondAttribute="leading" constant="15" id="0UH-2c-kHY"/>
+                            <constraint firstItem="nWG-3N-WPe" firstAttribute="top" secondItem="c8b-xY-gXV" secondAttribute="bottom" constant="20" id="4Bo-if-Vyu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vs0-2V-x9g" secondAttribute="trailing" constant="-1" id="8dc-wf-jtN"/>
+                            <constraint firstItem="c8b-xY-gXV" firstAttribute="top" secondItem="rjO-lK-QYh" secondAttribute="bottom" constant="8" id="CKc-yd-SK9"/>
+                            <constraint firstItem="vs0-2V-x9g" firstAttribute="top" secondItem="rjO-lK-QYh" secondAttribute="bottom" constant="8" id="IvT-Ay-qx8"/>
+                            <constraint firstItem="nWG-3N-WPe" firstAttribute="width" secondItem="da0-Fl-78v" secondAttribute="width" constant="-20" id="deK-lv-kvv"/>
+                            <constraint firstItem="nWG-3N-WPe" firstAttribute="centerX" secondItem="da0-Fl-78v" secondAttribute="centerX" id="gR4-06-0Cp"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DX9-0W-rzz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="501.60000000000002" y="-646.32683658170924"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dlz-Hm-45v">
+            <objects>
+                <navigationController id="82h-MV-4DR" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uLj-VC-1tj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Buk-Ee-z1o" kind="relationship" relationship="rootViewController" id="QzF-Po-wKn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dgC-fe-1ro" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-969" y="83"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dingri.jpg" width="500" height="491"/>
+    </resources>
+</document>
