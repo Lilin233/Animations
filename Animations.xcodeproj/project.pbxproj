@@ -10,6 +10,7 @@
 		2A0E84F21E2DB9F000A52ED8 /* UberLaunchAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0E84F11E2DB9F000A52ED8 /* UberLaunchAnimationViewController.m */; };
 		2A0E84F41E2DBA4D00A52ED8 /* Chimes.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2A0E84F31E2DBA4D00A52ED8 /* Chimes.pdf */; };
 		2A0E84F81E2DFCCF00A52ED8 /* UberLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0E84F71E2DFCCF00A52ED8 /* UberLoginView.m */; };
+		2A84BC591E481EA900207DDA /* TwitterLaunchAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A84BC581E481EA900207DDA /* TwitterLaunchAnimationViewController.m */; };
 		2AC214A21E2C5FE80061AEC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC214A11E2C5FE80061AEC7 /* main.m */; };
 		2AC214A51E2C5FE90061AEC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC214A41E2C5FE90061AEC7 /* AppDelegate.m */; };
 		2AC214A81E2C5FE90061AEC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC214A71E2C5FE90061AEC7 /* ViewController.m */; };
@@ -50,6 +51,8 @@
 		2A0E84F31E2DBA4D00A52ED8 /* Chimes.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Chimes.pdf; sourceTree = "<group>"; };
 		2A0E84F61E2DFCCF00A52ED8 /* UberLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UberLoginView.h; sourceTree = "<group>"; };
 		2A0E84F71E2DFCCF00A52ED8 /* UberLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UberLoginView.m; sourceTree = "<group>"; };
+		2A84BC571E481EA900207DDA /* TwitterLaunchAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterLaunchAnimationViewController.h; sourceTree = "<group>"; };
+		2A84BC581E481EA900207DDA /* TwitterLaunchAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterLaunchAnimationViewController.m; sourceTree = "<group>"; };
 		2AC2149D1E2C5FE80061AEC7 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC214A11E2C5FE80061AEC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2AC214A31E2C5FE90061AEC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -182,6 +185,8 @@
 				2AC214D71E2C681E0061AEC7 /* TwitterModalNormalAnimationViewController.m */,
 				2A0E84F01E2DB9F000A52ED8 /* UberLaunchAnimationViewController.h */,
 				2A0E84F11E2DB9F000A52ED8 /* UberLaunchAnimationViewController.m */,
+				2A84BC571E481EA900207DDA /* TwitterLaunchAnimationViewController.h */,
+				2A84BC581E481EA900207DDA /* TwitterLaunchAnimationViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -372,6 +377,7 @@
 				2A0E84F81E2DFCCF00A52ED8 /* UberLoginView.m in Sources */,
 				2AEC3DC81E2C930D00875FB5 /* ModalNormalAnimation.m in Sources */,
 				2A0E84F21E2DB9F000A52ED8 /* UberLaunchAnimationViewController.m in Sources */,
+				2A84BC591E481EA900207DDA /* TwitterLaunchAnimationViewController.m in Sources */,
 				2AEC3DCC1E2C9EEF00875FB5 /* UIViewExt.m in Sources */,
 				2AC214A21E2C5FE80061AEC7 /* main.m in Sources */,
 				2AEC3DD31E2CB9D300875FB5 /* TileView.m in Sources */,
